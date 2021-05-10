@@ -1,0 +1,36 @@
+.drag-and-drop {
+  position: absolute;
+  display: block;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(#D8D8D8, 0.9);
+  z-index: 2;
+
+  margin: 8px;
+  cursor: pointer;
+	border: 3px dashed #979797;
+
+  &__content {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    color: rgb(204, 204, 204);
+    transform: translate(-50%, -50%);
+
+    // needed to stop firing the drag leave on the parent
+    pointer-events: none;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  &__image{
+    padding-bottom: 20px;
+  }
+}
