@@ -1,0 +1,15 @@
+.blog-promo {
+    color: red;
+}
+
+.blog-promo__messages {
+    font-weight: bold;
+}
+
+.blog-promo2 {
+    color: red;
+}
+
+.blog-promo2 .blog-promo2__messages2 {
+    font-weight: bold;
+}
