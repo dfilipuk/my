@@ -48,8 +48,8 @@ Windows licensing could be managed with [SLMGR](https://docs.microsoft.com/en-us
 
 ## Tips
 
-- `Win` + `R` -> `msconfig` - Advanced system configuration
 - `Win` + `R` -> `recent` - Recently used files, action, etc.
+- `Win` + `R` -> `msconfig` - Advanced system configuration
 - Advanced startup options
     - `Shift` + `Restart`
     - `Settings` -> `Update & Security` -> `Recovery` -> `Advanced startup` -> `Restart now`
