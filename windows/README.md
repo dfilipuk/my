@@ -6,7 +6,9 @@
     - `System`
         - `Clipboard` -> `Clipboard history` -> `On`
         - `About` -> `Advanced system settings` -> `Advanced` tab -> `Startup and recovery` -> `Settings` -> `Writing Debugging Information` -> `Small memory dump`
-    - `Devices` -> `AutoPlay` -> `Off`
+    - `Devices`
+        - `Typing` -> `Advanced keyboard settings` -> `Let me use a different input method for each app window` -> `Off`
+        - `AutoPlay` -> `Off`
     - `Personalization` -> `Start` -> `Show suggestions occasionally in Start` -> `Off`
     - `Accounts` -> `Sync your settings` -> `Sync settings` -> `Off`
     - `Gaming` -> `Game Mode` -> `Use Game Mode` -> `On`
