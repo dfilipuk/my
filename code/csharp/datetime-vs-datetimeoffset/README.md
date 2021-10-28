@@ -14,7 +14,7 @@ So if you label your camera "Eastern Time", sometimes you are pointing from -5, 
 
 And what about UTC? Well, it's the one camera out there that is guaranteed to have a steady hand. It's on a tripod, firmly anchored into the ground. It's not going anywhere. We call its angle of perspective the zero offset.
 
-![](https://raw.githubusercontent.com/Kupilif/my/master/code/csharp/datetime-vs-datetimeoffset/figure.png)
+![](./figure.png)
 
 So what does this analogy tell us? It provides some intuitive guidelines:
 

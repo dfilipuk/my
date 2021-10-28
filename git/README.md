@@ -40,4 +40,4 @@ Identity
 
 ## Squash merge fix
 
-![](https://raw.githubusercontent.com/Kupilif/my/master/git/squash-fix.png)
+![](./squash-fix.png)
