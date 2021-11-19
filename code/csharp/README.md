@@ -76,6 +76,10 @@
 
 [Delegates VS Events](https://docs.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events)
 
+[Synchronization primitives](https://docs.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
+
+[Hashtable and Dictionary Collection Types](https://docs.microsoft.com/en-us/dotnet/standard/collections/hashtable-and-dictionary-collection-types)
+
 [Closure internals](http://sergeyteplyakov.blogspot.com/2010/04/c.html)
 
 [Intrincis attribute](https://stackoverflow.com/questions/56388664/what-does-the-intrinsic-attribute-in-c-sharp-do)
