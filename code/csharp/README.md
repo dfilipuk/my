@@ -60,6 +60,22 @@
 
 [Stephen Cleary: Eliding Async and Await](https://blog.stephencleary.com/2016/12/eliding-async-await.html)
 
+## Multithreading
+
+[lock statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement)
+
+[volatile](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile)
+
+[Synchronization primitives](https://docs.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
+
+[Thread-Safe Collections](https://docs.microsoft.com/en-us/dotnet/standard/collections/thread-safe/)
+
+[Cancellation in Managed Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-managed-threads)
+
+[Task cancellation](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-cancellation)
+
+[The Nature of TaskCompletionSource](https://devblogs.microsoft.com/pfxteam/the-nature-of-taskcompletionsourcetresult/)
+
 ## LINQ
 
 [Introduction to LINQ Queries](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
@@ -75,8 +91,6 @@
 [Covariance and contravariance](https://docs.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)
 
 [Delegates VS Events](https://docs.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events)
-
-[Synchronization primitives](https://docs.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
 
 [Hashtable and Dictionary Collection Types](https://docs.microsoft.com/en-us/dotnet/standard/collections/hashtable-and-dictionary-collection-types)
 
