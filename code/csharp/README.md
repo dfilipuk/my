@@ -102,4 +102,6 @@
 
 ## Resources
 
-[.NET](https://docs.microsoft.com/en-us/dotnet/fundamentals/) & [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) official documentation.
+[.NET](https://docs.microsoft.com/en-us/dotnet/fundamentals/) & [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) official documentation
+
+[Programming stuff](https://sergeyteplyakov.blogspot.com/) by Sergey Teplyakov
