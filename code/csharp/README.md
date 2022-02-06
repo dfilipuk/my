@@ -24,17 +24,21 @@
 
 [Automatic Memory Management](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management)
 
+### Garbage Collection
+
 [Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 
 [The large object heap](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap)
 
 [Background garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/background-gc)
 
+[Induced Collections](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/induced) and [Latency modes](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/latency)
+
+### Unmanaged Resources
+
 [Cleaning up unmanaged resources](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/unmanaged)
 
 [Dispose pattern](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose) and [Object.Finalize method](https://docs.microsoft.com/en-us/dotnet/api/system.object.finalize#remarks)
-
-[Induced Collections](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/induced) and [Latency modes](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/latency)
 
 [Weak References](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)
 
