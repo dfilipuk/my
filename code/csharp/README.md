@@ -44,41 +44,71 @@
 
 [Memory and Span usage guidelines](https://docs.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines)
 
-## Async / Await
+## Asynchronous Programming
 
-[Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
+[Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
 
-[Asynchronous programming scenarios](https://docs.microsoft.com/en-us/dotnet/csharp/async)
+### Task-based Asynchronous Pattern (TAP)
+
+[Task-based asynchronous pattern](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)
 
 [Task asynchronous programming model](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/task-asynchronous-programming-model)
 
-[Async in depth](https://docs.microsoft.com/en-us/dotnet/standard/async-in-depth)
+[Asynchronous programming scenarios](https://docs.microsoft.com/en-us/dotnet/csharp/async)
 
-[ConfigureAwait FAQ](https://devblogs.microsoft.com/dotnet/configureawait-faq/)
+#### Async / Await
+
+[Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
+
+[Async in depth](https://docs.microsoft.com/en-us/dotnet/standard/async-in-depth)
 
 [Stephen Cleary: Async and Await](https://blog.stephencleary.com/2012/02/async-and-await.html)
 
 [Stephen Cleary: There Is No Thread](https://blog.stephencleary.com/2013/11/there-is-no-thread.html)
 
+##### Async / Await Correct Usage
+
 [Stephen Cleary: Don't Block on Async Code](https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html)
 
 [Stephen Cleary: Eliding Async and Await](https://blog.stephencleary.com/2016/12/eliding-async-await.html)
 
-## Multithreading
+[ConfigureAwait FAQ](https://devblogs.microsoft.com/dotnet/configureawait-faq/)
 
-[lock statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement)
+#### Cancellation of asynchronous operations
 
-[volatile](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile)
+[Task cancellation](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-cancellation)
+
+[Cancellation in Managed Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-managed-threads)
+
+#### Interop with other asynchronous patterns
+
+[Interop with Other Asynchronous Patterns and Types](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/interop-with-other-asynchronous-patterns-and-types)
+
+[The Nature of TaskCompletionSource](https://devblogs.microsoft.com/pfxteam/the-nature-of-taskcompletionsourcetresult/)
+
+### Event-based Asynchronous Pattern (EAP)
+
+[Event-based Asynchronous Pattern Overview](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-overview)
+
+### Asynchronous Programming Model (APM)
+
+[Asynchronous Programming Model](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/asynchronous-programming-model-apm)
+
+## Parallel Programming
+
+[Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
+
+[Synchronizing data for multithreading](https://docs.microsoft.com/en-us/dotnet/standard/threading/synchronizing-data-for-multithreading)
+
+### Synchronization mechanisms
 
 [Synchronization primitives](https://docs.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
 
 [Thread-Safe Collections](https://docs.microsoft.com/en-us/dotnet/standard/collections/thread-safe/)
 
-[Cancellation in Managed Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-managed-threads)
+[lock statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement)
 
-[Task cancellation](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-cancellation)
-
-[The Nature of TaskCompletionSource](https://devblogs.microsoft.com/pfxteam/the-nature-of-taskcompletionsourcetresult/)
+[volatile](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile)
 
 ## LINQ
 
