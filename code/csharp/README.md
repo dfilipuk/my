@@ -2,9 +2,11 @@
 
 ## Overview
 
-[.NET architectural components](https://docs.microsoft.com/en-us/dotnet/standard/components)
+[.NET Architectural components](https://docs.microsoft.com/en-us/dotnet/standard/components)
 
 [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+
+[.NET Common type system](https://docs.microsoft.com/en-us/dotnet/standard/base-types/common-type-system)
 
 [C# major language areas](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features)
 
@@ -68,9 +70,9 @@
 
 ##### Async / Await Correct Usage
 
-[Stephen Cleary: Don't Block on Async Code](https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html)
+[Don't Block on Async Code](https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html)
 
-[Stephen Cleary: Eliding Async and Await](https://blog.stephencleary.com/2016/12/eliding-async-await.html)
+[Eliding Async and Await](https://blog.stephencleary.com/2016/12/eliding-async-await.html)
 
 [ConfigureAwait FAQ](https://devblogs.microsoft.com/dotnet/configureawait-faq/)
 
@@ -130,7 +132,7 @@
 
 [AsyncBarrier](https://devblogs.microsoft.com/pfxteam/building-async-coordination-primitives-part-4-asyncbarrier/)
 
-[Building Async Coordination Primitives, Part 5: AsyncSemaphore](https://devblogs.microsoft.com/pfxteam/building-async-coordination-primitives-part-5-asyncsemaphore/)
+[AsyncSemaphore](https://devblogs.microsoft.com/pfxteam/building-async-coordination-primitives-part-5-asyncsemaphore/)
 
 [AsyncLock](https://devblogs.microsoft.com/pfxteam/building-async-coordination-primitives-part-6-asynclock/)
 
@@ -144,9 +146,15 @@
 
 ## Other
 
+### .NET & C# features
+
 [Access Modifiers](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
 
 [Boxing and Unboxing](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
+
+[Intrincis attribute](https://stackoverflow.com/questions/56388664/what-does-the-intrinsic-attribute-in-c-sharp-do)
+
+### Type System
 
 [Covariance and contravariance](https://docs.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)
 
@@ -154,14 +162,20 @@
 
 [Hashtable and Dictionary Collection Types](https://docs.microsoft.com/en-us/dotnet/standard/collections/hashtable-and-dictionary-collection-types)
 
+[DateTime VS DateTimeOffset](./datetime-vs-datetimeoffset)
+
+### Closure
+
 [Closure internals](http://sergeyteplyakov.blogspot.com/2010/04/c.html)
 
-[Intrincis attribute](https://stackoverflow.com/questions/56388664/what-does-the-intrinsic-attribute-in-c-sharp-do)
-
-[DateTime VS DateTimeOffset](./datetime-vs-datetimeoffset)
+[Замыкания на переменных цикла в C# 5](https://habr.com/ru/post/141270/)
 
 ## Resources
 
 [.NET](https://docs.microsoft.com/en-us/dotnet/fundamentals/) & [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) official documentation
 
-[Programming stuff](https://sergeyteplyakov.blogspot.com/) by Sergey Teplyakov
+[.NET Blog](https://devblogs.microsoft.com/dotnet/)
+
+Stephen Cleary [Blog](https://blog.stephencleary.com/)
+
+Sergey Teplyakov [Blog](https://sergeyteplyakov.blogspot.com/)
