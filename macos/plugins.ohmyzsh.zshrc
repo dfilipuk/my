@@ -1,8 +1,8 @@
 plugins=(
+  battery
   colored-man-pages
   git
   macos
-  sublime
   themes
   vscode
   zsh-autosuggestions
