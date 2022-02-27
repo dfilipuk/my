@@ -3,5 +3,7 @@
     "editor.fontSize": 14,
     "git-graph.commitDetailsView.location": "Docked to Bottom",
     "terminal.integrated.fontSize": 14,
-    "window.restoreWindows": "none"
+    "window.restoreWindows": "none",
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "on"
 }
