@@ -1,1 +1,0 @@
-find . -not -path '*/\.DS_Store' -ls | awk 'BEGIN {fsize = 0; fcount = 0} { if ($3 ~ /^-/) {fsize += $7; fcount += 1} else if ($3 ~ /^d/) {dcount += 1} } END {dcount -= 1; printf "d count : %d\nf count : %d\nf tsize : %d\n", dcount, fcount, fsize}'
