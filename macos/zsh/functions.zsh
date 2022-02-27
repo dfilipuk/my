@@ -1,4 +1,4 @@
-# [ -f ~/functions.zsh ] && source ~/.functions.zsh
+# [ -f ~/functions.zsh ] && source ~/functions.zsh
 
 bsize () {
     if [[ $2 = r ]]; then
