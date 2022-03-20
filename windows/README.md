@@ -1,15 +1,21 @@
 # Windows
 
-## Fresh install actions
+## Fresh install checklist
 
 - `Settings`
     - `System`
         - `Clipboard` -> `Clipboard history` -> `On`
-        - `About` -> `Advanced system settings` -> `Advanced` tab -> `Startup and recovery` -> `Settings` -> `Writing Debugging Information` -> `Small memory dump`
+        - `About`
+            - `Rename this PC`
+            - `Advanced system settings` -> `Advanced` tab -> `Startup and recovery` -> `Settings` -> `Writing Debugging Information` -> `Small memory dump`
     - `Devices`
         - `Typing` -> `Advanced keyboard settings` -> `Let me use a different input method for each app window` -> `Off`
         - `AutoPlay` -> `Off`
-    - `Personalization` -> `Start` -> `Show suggestions occasionally in Start` -> `Off`
+    - `Personalization`
+        - `Themes` -> `Desktop icon settings` -> Select icons which appear on desktop
+        - `Start`
+            - `Show suggestions occasionally in Start` -> `Off`
+            - `Choose which folders appear on Start`
     - `Accounts` -> `Sync your settings` -> `Sync settings` -> `Off`
     - `Gaming` -> `Game Mode` -> `Use Game Mode` -> `On`
     - `Privacy` -> `Activity history` -> Set everything to `Off`
@@ -20,7 +26,21 @@
                 - `Download updates over metered connections` -> `Off`
                 - `Restart this device as soon as possible` -> `Off`
         - `Delivery Optimization` -> `Allow downloads from other PCs` -> `Off`
-- This PC -> RMB on non-system volumes -> Allow indexing -> Off
+- `File Explorer`
+    - `View`
+        - `Show`
+            - `Hidden items`
+            - `File Extensions`
+        - `Options` -> `Change folder and search options`
+            - `General`
+                - `Open File Explorer to` -> `This PC`
+                - `Show recently used files in Quick access` -> `Off`
+                - `Show frequently used files in Quick access` -> `Off`
+            - `View`
+                - `Display the full path in the title bar` -> `On`
+    - RMB on non-system volumes -> `Allow indexing` -> `Off`
+- `Control` + `Shift` + `Esc` -> `Startup` -> Remove unnecessary items from autorun on startup
+- `NVIDIA Control Panel` -> `Manage 3D settings` -> `Global Settings` -> `Power management mode` -> `Prefer maximum performance`
 
 ## Manual data cleanup
 
