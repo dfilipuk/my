@@ -29,15 +29,25 @@ You want to include the option `IdentitiesOnly yes` to prevent the use of defaul
 - local
   - `[git-repositoy]/.git/config`
 
-Identity
+### Identity
 
 - `git config [--global | --system] user.name "Name Surname"`
 - `git config [--global | --system] user.email name.surname@example.com`
 
-## Merge strategies
+### Global .gitignore
+
+`git config --global core.excludesFile '~/.gitignore'`
+
+## Tips
+
+### Merge strategies
 
 `git merge branch-name -s strategy` - perform merge with specified [strategy]((https://git-scm.com/docs/merge-strategies))
 
-## Squash merge fix
+### Set commiter date to author date
+
+`git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"'`
+
+### Squash merge fix
 
 ![](./squash-fix.png)
