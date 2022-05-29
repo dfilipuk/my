@@ -1,5 +1,3 @@
-# [ -f ~/functions.zsh ] && source ~/functions.zsh
-
 bsize () {
     if [[ $2 = r ]]; then
         du -h -d 1 $1

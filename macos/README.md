@@ -54,3 +54,40 @@ Shortcut | Description
 `Shift + Up` | Preview up
 `Shift + Down` | Preview down
 `Tab` / `Shift + Tab` | Select multiple files
+
+## Setup
+
+### Automator
+
+Services located in `~/Library/Services`
+
+- `Quick Action`
+    - Set `Service receives selected` to `files or folders` in `Finder`
+    - Add a `Run Shell Script` action
+        - Set the script action
+        - Set `Pass input` to `as arguments`
+
+### iTerm2
+
+- `Preferences` -> `General` -> `Preferences`
+    - `Load preferences from a custom folder or URL`
+    - `Save changes` -> `Manually`
+
+### fzf
+
+- Define `fzf` env variables in `~/.zshenv`
+
+### Zsh
+
+- Add `[ -f ~/functions.zsh ] && source ~/functions.zsh` into `~/.zshrc`
+
+### Oh My Zsh
+
+#### Theme
+
+- Put theme into `~/.oh-my-zsh/custom/themes`
+- Set `ZSH_THEME` variable in `~/.zshrc`
+
+#### Plugins
+
+- Set `plugins` variable in `~/.zshrc`
