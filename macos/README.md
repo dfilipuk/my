@@ -91,3 +91,7 @@ Services located in `~/Library/Services`
 #### Plugins
 
 - Set `plugins` variable in `~/.zshrc`
+
+### Spotlight
+
+- Exclude drive from Spotlight indexing: `cd <drive_root> && touch .metadata_never_index`
