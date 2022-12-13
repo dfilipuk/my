@@ -38,5 +38,5 @@ get_directory_statisitcs () {
 }
 
 calculate_statisitcs () {
-    LC_NUMERIC=en_US.UTF-8 awk 'BEGIN {fsize = 0; fcount = 0} { if ($3 ~ /^-/) {fsize += $7; fcount += 1} else if ($3 ~ /^d/) {dcount += 1} } END {dcount -= 1; printf "\033[1;35m%7\047d \033[1;33m%10\047d \033[1;32m%20\047d \033[0m", dcount, fcount, fsize}'
+    LC_NUMERIC=en_US.UTF-8 awk 'BEGIN {fsize = 0; fcount = 0} { if ($3 ~ /^-/) {fsize += $7; fcount += 1} else if ($3 ~ /^d/) {dcount += 1} } END {dcount -= 1; printf "\033[1;35m%\047 7d \033[1;33m%\047 10d \033[1;32m%\047 20d \033[0m", dcount, fcount, fsize}'
 }
