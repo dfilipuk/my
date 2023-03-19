@@ -26,6 +26,7 @@
                 - `Download updates over metered connections` -> `Off`
                 - `Restart this device as soon as possible` -> `Off`
         - `Delivery Optimization` -> `Allow downloads from other PCs` -> `Off`
+- `Control Panel` -> `System and Security` -> `Security and Maintenance` -> `Change User Account Control Settings` -> Set `Notify me only when apps try to make changes to my computer (default)`
 - `File Explorer`
     - `View`
         - `Show`
