@@ -95,3 +95,18 @@ Services located in `~/Library/Services`
 ### Spotlight
 
 - Exclude drive from Spotlight indexing: `cd <drive_root> && touch .metadata_never_index`
+
+## System
+
+### Startup & background items
+
+- `~/Library/`
+    - `LaunchAgents/`
+- `/Library/`
+    - `LaunchAgents/`
+    - `LaunchDaemons/`
+    - `StartupItems/`
+- `/System/Library/`
+    - `LaunchAgents/`
+    - `LaunchDaemons/`
+    - `StartupItems/`
