@@ -110,3 +110,16 @@ Services located in `~/Library/Services`
     - `LaunchAgents/`
     - `LaunchDaemons/`
     - `StartupItems/`
+
+### Wallpapers
+
+#### Location
+
+- `~/Library/Application Support/com.apple.mobileAssetDesktop/`
+- `/Library/Application Support/com.apple.idleassetsd/Customer/`
+
+#### Cache
+
+- `/private/var/folders/<xx>/<xxx...yyy>/C/`
+    - `com.apple.desktoppicture/`
+    - `com.apple.wallpaper.caches/`
