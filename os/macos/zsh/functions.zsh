@@ -14,6 +14,14 @@ dstat-not-apfs() {
     internal_dstat $1 notapfs $2
 }
 
+wakeh() {
+    pmset -g log | grep "due to" | grep -e " Wake "
+}
+
+wakehf() {
+    pmset -g log | grep "due to" | grep -e " Wake " -e " DarkWake " -e " Sleep "
+}
+
 internal_dstat () {
     if [[ $3 = r ]]; then
         local dirs=$(find $1 -type d -depth 1 | sort)
