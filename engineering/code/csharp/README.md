@@ -164,7 +164,7 @@
 
 [Hashtable and Dictionary Collection Types](https://docs.microsoft.com/en-us/dotnet/standard/collections/hashtable-and-dictionary-collection-types)
 
-[DateTime VS DateTimeOffset](./datetime-vs-datetimeoffset)
+[DateTime VS DateTimeOffset](./datetime-vs-datetimeoffset/README.md)
 
 ### Closure
 
