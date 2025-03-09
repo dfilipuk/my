@@ -398,5 +398,7 @@
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
+	<key>disableMetalWhenUnplugged</key>
+	<false/>
 </dict>
 </plist>
