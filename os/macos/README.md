@@ -53,6 +53,8 @@ Shortcut | Description
 `Opt + Space` | Toggle preview
 `Opt + Up` | Preview up
 `Opt + Down` | Preview down
+`Opt + F` | Preview page forward (down)
+`Opt + B` | Preview page backward (up)
 `Tab` / `Shift + Tab` | Select multiple files
 
 ## Setup
