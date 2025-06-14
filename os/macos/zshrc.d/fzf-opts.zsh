@@ -1,1 +1,5 @@
-export FZF_DEFAULT_OPTS="--preview='bat --style=numbers --color=always {}' --preview-window=right,hidden,wrap --bind=f2:toggle-preview"
+export FZF_DEFAULT_OPTS="\
+    --preview='bat --paging=never --style=numbers --color=always --line-range :500 {}' \
+    --preview-window='up,85%,border-bottom,hidden,wrap' \
+    --bind='alt-space:toggle-preview,alt-up:preview-up,alt-down:preview-down'
+"
