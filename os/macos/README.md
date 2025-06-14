@@ -50,11 +50,11 @@ Shortcut | Description
 `Opt + C` | `cd` into the selected directory
 `Ctrl + R` | Paste the selected command from history onto the command-line
 `Ctrl + T` | Paste the selected files and directories onto the command-line
-`Opt + Space` | Toggle preview
-`Opt + Up` | Preview up
-`Opt + Down` | Preview down
-`Opt + F` | Preview page forward (down)
-`Opt + B` | Preview page backward (up)
+`Shift + Right` | Toggle preview
+`Shift + Up` | Preview up
+`Shift + Down` | Preview down
+`Ctrl + F` | Preview page forward (down)
+`Ctrl + B` | Preview page backward (up)
 `Tab` / `Shift + Tab` | Select multiple files
 
 ## Setup
