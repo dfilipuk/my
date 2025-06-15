@@ -1,13 +1,9 @@
 plugins=(
-  battery
-  colored-man-pages
-  git
-  macos
-  themes
-  vscode
-  zsh-autosuggestions
-  zsh-interactive-cd
-  zsh-syntax-highlighting
+    battery
+    fzf
+    zsh-autosuggestions
+    zsh-interactive-cd
+    zsh-syntax-highlighting
 )
 
 [ -f ~/.config/zshrc.d/bat.zsh ] && source ~/.config/zshrc.d/bat.zsh
