@@ -29,22 +29,22 @@ internal_dstat () {
         for dir in $escapedDirs
         do
             local escapedDir=$(printf '%s' $dir)
-            get_directory_statisitcs $escapedDir $2
+            get_directory_statistics $escapedDir $2
         done
         else
-        get_directory_statisitcs $1 $2
+        get_directory_statistics $1 $2
     fi
 }
 
-get_directory_statisitcs () {
+get_directory_statistics () {
     if [[ $2 = apfs ]]; then
-        find $1 -not -path '*/\.DS_Store' -ls | calculate_statisitcs
+        find $1 -not -path '*/\.DS_Store' -ls | calculate_statistics
         else
-        find $1 -not -path '*/\.DS_Store' -not -path '*/\._*' -ls | calculate_statisitcs
+        find $1 -not -path '*/\.DS_Store' -not -path '*/\._*' -ls | calculate_statistics
     fi
     printf " \033[1;36m%s\033[0m\n" $1
 }
 
-calculate_statisitcs () {
+calculate_statistics () {
     LC_NUMERIC=en_US.UTF-8 awk 'BEGIN {fsize = 0; fcount = 0} { if ($3 ~ /^-/) {fsize += $7; fcount += 1} else if ($3 ~ /^d/) {dcount += 1} } END {dcount -= 1; printf "\033[1;35m%\047 7d \033[1;33m%\047 10d \033[1;32m%\047 20d \033[0m", dcount, fcount, fsize}'
 }
