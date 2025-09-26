@@ -1,25 +1,9 @@
-bsize () {
-    if [[ $2 = r ]]; then
-        du -h -d 1 $1
-        else
-        du -sh $1
-    fi
-}
-
 dstat() {
     internal_dstat $1 apfs $2
 }
 
 dstat-not-apfs() {
     internal_dstat $1 notapfs $2
-}
-
-wakeh() {
-    pmset -g log | grep "due to" | grep -e " Wake "
-}
-
-wakehf() {
-    pmset -g log | grep "due to" | grep -e " Wake " -e " DarkWake " -e " Sleep "
 }
 
 internal_dstat () {

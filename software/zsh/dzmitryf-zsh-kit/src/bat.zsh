@@ -1,3 +1,7 @@
+h() {
+    "$@" -h 2>&1 | bat --plain --language=help
+}
+
 help() {
     "$@" --help 2>&1 | bat --plain --language=help
 }
