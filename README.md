@@ -1,23 +1,12 @@
-# Table of Contents
-
-## Engineering
-
 ### Code
 
-#### [C#](./engineering/code/csharp/README.md)
+- #### [C#](./code/csharp/README.md)
+- #### [HTML/CSS](./code/html-css/README.md)
 
-#### [HTML/CSS](./engineering/code/html-css/README.md)
+### [Cybersecurity](./cybersecurity/README.md)
 
-#### [TypeScript](./engineering/code/typescript/)
+### [git](./git/README.md)
 
-### [Cybersecurity](./engineering/cybersecurity/README.md)
+### [macOS](./macos/README.md)
 
-## Operating System
-
-### [macOS](./os/macos/README.md)
-
-### [Windows](./os/windows/README.md)
-
-## Software
-
-### [git](./software/git/README.md)
+### [Windows](./windows/README.md)
