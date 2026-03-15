@@ -31,32 +31,6 @@ Shortcut | Description
 ---------|------------
 `Cmd + Shift + N` | Get new mail
 
-### iTerm2
-
-Shortcut | Description
----------|------------
-`Cmd + N` | New window
-`Cmd + T` | New tab
-`Cmd + D` | Split vertically
-`Cmd + Shift + D` | Split horizontally
-`Cmd + W` | Close pane
-`Cmd + Opt + W` | Close all panes in tab
-`Cmd + Shift + W` | Close window
-
-### fzf
-
-Shortcut | Description
----------|------------
-`Opt + C` | `cd` into the selected directory
-`Ctrl + R` | Paste the selected command from history onto the command-line
-`Ctrl + T` | Paste the selected files and directories onto the command-line
-`Shift + Right` | Toggle preview
-`Shift + Up` | Preview up
-`Shift + Down` | Preview down
-`Ctrl + F` | Preview page forward (down)
-`Ctrl + B` | Preview page backward (up)
-`Tab` / `Shift + Tab` | Select multiple files
-
 ## Setup
 
 ### Automator
@@ -68,31 +42,6 @@ Services located in `~/Library/Services`
     - Add a `Run Shell Script` action
         - Set the script action
         - Set `Pass input` to `as arguments`
-
-### iTerm2
-
-- `Preferences` -> `General` -> `Preferences`
-    - `Load preferences from a custom folder or URL`
-    - `Save changes` -> `Manually`
-
-### fzf
-
-- Define `fzf` env variables in `~/.zshenv`
-
-### Zsh
-
-- Add `[ -f ~/functions.zsh ] && source ~/functions.zsh` into `~/.zshrc`
-
-### Oh My Zsh
-
-#### Theme
-
-- Put theme into `~/.oh-my-zsh/custom/themes`
-- Set `ZSH_THEME` variable in `~/.zshrc`
-
-#### Plugins
-
-- Set `plugins` variable in `~/.zshrc`
 
 ### Spotlight
 

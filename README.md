@@ -21,5 +21,3 @@
 ## Software
 
 ### [git](./software/git/README.md)
-
-### [VSCode](./software/vscode/)
